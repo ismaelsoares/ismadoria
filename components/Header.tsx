@@ -12,7 +12,7 @@ export const Header = () => {
         {/* logo */}
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            ismadev<span className="text-accent">.</span>
+            ism@dev<span className="text-accent">.</span>
           </h1>
         </Link>
         {/* desktop nav  & hire me button*/}
