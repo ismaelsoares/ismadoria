@@ -5,6 +5,7 @@ import { FiDownload } from "react-icons/fi";
 import { Social } from "@/components/Social";
 import { Photo } from "@/components/Photo";
 import { Stats } from "@/components/Stats";
+import { TextEffect } from "@/components/TextEffect";
 
 const Home = () => {
   return (
@@ -14,11 +15,30 @@ const Home = () => {
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
-            <h1 className="h1 mb-6">
+            {/* <h1 className="h1 mb-6">
               {"Hello I'm "}
               <br />
               <span className="text-accent">Ismael Doria</span>
-            </h1>
+            </h1> */}
+            <TextEffect
+              title={[`Hello I'm`, 1500, `I'm`, 12500]}
+              color={`text-white`}
+            />
+            <TextEffect
+              title={[
+                `Ismael Doria`,
+                1500,
+                `Web Developer`,
+                1500,
+                `Front End`,
+                1500,
+                `Back End`,
+                1500,
+                `Full Stack`,
+                1500,
+              ]}
+              color={`text-accent`}
+            />
             <p className="max-w-[500px] mb-9 text-white/80">
               I excel at crafting elegant digital experiences and I am
               proficient in various programming languages and technologies.
