@@ -25,7 +25,7 @@ const stats: StatsProps[] = [
   },
 ];
 
-export const Stats = ({ num, text }: StatsProps) => {
+export const Stats = () => {
   return (
     <section className="pt-4 pb-12 xl:pt-0 xl:pb-0 ">
       <div className="container mx-auto">
