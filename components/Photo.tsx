@@ -20,7 +20,7 @@ export const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="size-[298px] xl:size-[498px] mix-blend-lighten absolute"
+          className="size-[301px] xl:size-[501px] mix-blend-lighten absolute"
         >
           <Image
             src="/assets/avatar.png"
@@ -28,7 +28,7 @@ export const Photo = () => {
             quality={100}
             fill
             alt="avatar"
-            className="object-contain"
+            className="object-contain rounded-full relative"
           />
         </motion.div>
 
