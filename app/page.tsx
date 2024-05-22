@@ -21,14 +21,14 @@ const Home = () => {
               <span className="text-accent">Ismael Doria</span>
             </h1> */}
             <TextEffect
-              title={[`Hello I'm`, 1500, `I'm`, 12500]}
+              title={[`Hello I'm`, 1500, `I'm`, 11300]}
               color={`text-white`}
             />
             <TextEffect
               title={[
                 `Ismael Doria`,
                 1500,
-                `Web Developer`,
+                `Web Dev`,
                 1500,
                 `Front End`,
                 1500,
